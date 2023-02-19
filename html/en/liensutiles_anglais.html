@@ -1,0 +1,163 @@
+<!doctype html> <!--Page liensutiles_anglais.html-->
+<html lang="en">
+
+<head>
+    <!--encodage-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Titre de la page-->
+    <title>Portfolio - Timéo Tourneux</title>
+    <!--Importation module Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!--Importation style CSS-->
+    <link href="../../css/css_TOURNEUX.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!--Importation icône page web-->
+    <link rel="icon" href="../../img/briefcase-fill.png">
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <!--importation javascript pour le système de mail  et la fonction-->
+    <script src="../../js/index.js"></script>
+    <script>
+        (function () {
+            emailjs.init("ktthi_S6Q2a4-ta9I");
+        })();
+    </script>
+</head>
+
+<body>
+    <main>
+        <!--Partie de la navbar-->
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top" aria-label="Fourth navbar example">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../../html/en/index_anglais.html">
+                    <!--Titre de la navbar-->
+                    <h2>Portfolio</h2>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarsExample04">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!--éléments de la navbar-->
+                <div class="collapse navbar-collapse" id="navbarsExample04">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                        <!--Page CV Numérique de la navbar-->
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page"
+                                href="../../html/en/index_anglais.html"><span>Digital
+                                    CV</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <!--redirection page Compétence & Projet de la navbar-->
+                            <a class="nav-link active" aria-current="page"
+                                href="../../html/en/competences_anglais.html"><span>Skills & Project</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <!--redirection page Expérience profesionnelle de la navbar-->
+                            <a class="nav-link active" aria-current="page"
+                                href="../../html/en/interets_anglais.html"><span>Professional
+                                    experience</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <!--redirection page Projet professionnel de la navbar-->
+                            <a class="nav-link active" aria-current="page"
+                                href="../../html/en/projetprofessionnel_anglais.html"><span>Professional
+                                    project</span></a>
+                        </li>
+                        <!--menu déroulant de la navbar-->
+                        <li class="nav-item dropdown">
+                            <!--Titre de la navbar-->
+                            <a class="nav-link" href="#" id="dropdown04" data-bs-toggle="dropdown"
+                                aria-expanded="false"><span>Useful links ∇</span></a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdown04">
+                                <!--Réseau Instagram-->
+                                <li><a class="dropdown-item" href="https://www.instagram.com/txtimeo/"
+                                        target="_blank">Instagram</a></li>
+                                <!--Lien Emploi du temps-->
+                                <li><a class="dropdown-item"
+                                        href="https://planning.univ-rennes1.fr/direct/index.jsp?data=a1d943125e11d6e309b3ae55b4240b179efd5d248a2e3916f42627774819aa817d2e06d8d5cfb9c7339c47c11e4570303d0cc94dd48a99c89dc0428cf61595cabde16ce7a8a183788696dc48b3bb21dddb75aad3774f3bd6dc2373964637ae5a4fb73f211c8eb5227c33268d3f2a4cb0fb3bc44bf6ff263af32d86a3de536e23465dcb2b106db426b3c2c873b9dd906b5eb892f1d609ad0f47cc04c28072e730724a53ff8d979fb9c11db57a73e51a0e8e2d7d3531b991b7b56f539d71da18a3,1"
+                                        target="_blank">Timetable</a></li>
+                                <!--Réseau Linkedin-->
+                                <li><a class="dropdown-item"
+                                        href="https://www.linkedin.com/in/tim%C3%A9o-tourneux-977015260/"
+                                        target="_blank">Linkedin</a></li>
+                                <!--Lien vers la page pour me contacter-->
+                                <li><a class="dropdown-item" href="../../html/en/liensutiles_anglais.html"
+                                        style="color: blueviolet; font-weight: bold;">Contact me</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </main>
+    <div class="langue-liens">
+        <!--bouton page en français-->
+        <a href="../../html/fr/liensutiles.html" class="btn btn-dark" role="button">Français&ensp;<i
+                class="bi bi-translate"></i></a>
+    </div>
+    <!--partie centrale mail-->
+    <div class="mail">
+        <div class="contact-box">
+            <!--partie gauche ( background image dans le css)-->
+            <div class="left"></div>
+            <!--partie droite , formulaire pour me contacter-->
+            <div class="right">
+                <!--titre de la box-->
+                <h2>Contact me</h2>
+                <!--éléments de la partie droite, utilisés dans l'index.js-->
+                <input type="text" class="field" id="name_send" placeholder="Your name" style="border-radius: 5px;">
+                <input type="text" class="field" id="email_send" placeholder="Your Email" style="border-radius: 5px;">
+                <input type="text" class="field" id="phone_send" placeholder="Your phone" style="border-radius: 5px;">
+                <textarea id="message_send" placeholder="Message" class="field" style="border-radius: 5px;"></textarea>
+                <!--bouton Bootstrap pour envoyer le mail-->
+                <button class="butn" onclick="sendMail()">Send</button>
+
+            </div>
+        </div>
+    </div>
+
+    <!--pied de page-->
+    <footer class="text-center text-white">
+        <!-- Grid container -->
+        <div class="text-contact-reseaux">
+            <p>To contact me on my networks : </p>
+        </div>
+        <div class="container pt-4">
+
+            <!-- Réseaux -->
+            <div class="mb-4">
+                <!-- Twitter -->
+                <a class="btn btn-link btn-floating btn-lg text-white m-1" href="https://twitter.com/timeotourneuxg1"
+                    target="_blank" role="button" data-mdb-ripple-color="dark"><i class="bi bi-twitter"></i></a>
+
+                <!-- IUT -->
+                <a class="btn btn-link btn-floating btn-lg text-white m-1" href="https://iut-lannion.univ-rennes1.fr/"
+                    target="_blank" role="button" data-mdb-ripple-color="dark"><i class="bi bi-briefcase-fill"></i></a>
+
+                <!-- Instagram -->
+                <a class="btn btn-link btn-floating btn-lg text-white m-1" href="https://www.instagram.com/txtimeo/"
+                    target="_blank" role="button" data-mdb-ripple-color="dark"><i class="bi bi-instagram"></i></a>
+
+                <!-- Linkedin -->
+                <a class="btn btn-link btn-floating btn-lg text-white m-1"
+                    href="https://www.linkedin.com/in/tim%C3%A9o-tourneux-977015260/" target="_blank" role="button"
+                    data-mdb-ripple-color="dark"><i class="bi bi-linkedin"></i></a>
+            </div>
+
+        </div>
+        <!--texte footer-->
+        <div class="text-center  text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            <span>© 2023 Site created by Timéo Tourneux</span>
+        </div>
+    </footer>
+    <!--module bootstrap js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,238 @@
+<!doctype html> <!--Page projetprofessionnel.html-->
+<html lang="fr">
+
+<head>
+
+    <!--encodage-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Titre de la page-->
+    <title>Portfolio - Timéo Tourneux</title>
+    <!--Importation module Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!--Importation icône page web-->
+    <link rel="icon" href="../../img/briefcase-fill.png">
+    <!--Importation style CSS-->
+    <link href="../../css/css_TOURNEUX.css" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <!--Partie de la navbar-->
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top" aria-label="Fourth navbar example">
+            <div class="container-fluid">
+                <!--Titre de la navbar-->
+                <a class="navbar-brand" href="../fr/index.html">
+                    <h2>Portfolio</h2>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarsExample04">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!--éléments de la navbar-->
+                <div class="collapse navbar-collapse" id="navbarsExample04">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                        <!--Page CV Numérique de la navbar-->
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../fr/index.html"><span>CV
+                                    Numérique</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <!--redirection page Compétence & Projet de la navbar-->
+                            <a class="nav-link active" aria-current="page"
+                                href="../fr/competences.html"><span>Compétences &
+                                    Projet</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <!--redirection page Expérience profesionnelle de la navbar-->
+                            <a class="nav-link active" aria-current="page" href="../fr/interets.html"><span>Expérience
+                                    professionnelle</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <!--redirection page Projet professionnel de la navbar-->
+                            <a class="nav-link active" aria-current="page" href="#"><span>Projet
+                                    professionnel</span></a>
+                        </li>
+                        <!--menu déroulant de la navbar-->
+                        <li class="nav-item dropdown">
+                            <!--Titre de la navbar-->
+                            <a class="nav-link" href="#" id="dropdown04" data-bs-toggle="dropdown"
+                                aria-expanded="false"><span>Liens
+                                    utiles ∇</span></a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdown04">
+                                <!--Réseau Instagram-->
+                                <li><a class="dropdown-item" href="https://www.instagram.com/txtimeo/"
+                                        target="_blank">Instagram</a></li>
+                                <!--Lien Emploi du temps-->
+                                <li><a class="dropdown-item"
+                                        href="https://planning.univ-rennes1.fr/direct/index.jsp?data=a1d943125e11d6e309b3ae55b4240b179efd5d248a2e3916f42627774819aa817d2e06d8d5cfb9c7339c47c11e4570303d0cc94dd48a99c89dc0428cf61595cabde16ce7a8a183788696dc48b3bb21dddb75aad3774f3bd6dc2373964637ae5a4fb73f211c8eb5227c33268d3f2a4cb0fb3bc44bf6ff263af32d86a3de536e23465dcb2b106db426b3c2c873b9dd906b5eb892f1d609ad0f47cc04c28072e730724a53ff8d979fb9c11db57a73e51a0e8e2d7d3531b991b7b56f539d71da18a3,1"
+                                        target="_blank">Emploi du temps</a></li>
+                                <!--Réseau Linkedin-->
+                                <li><a class="dropdown-item"
+                                        href="https://www.linkedin.com/in/tim%C3%A9o-tourneux-977015260/"
+                                        target="_blank">Linkedin</a></li>
+                                <!--Lien vers la page pour me contacter-->
+                                <li><a class="dropdown-item" href="../fr/liensutiles.html"
+                                        style="color: blueviolet; font-weight: bold;">Me
+                                        contacter</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </main>
+
+    <!--Grid container bootstrap-->
+    <div class="container6" style="width: 99%;">
+        <div class="row">
+            <!--Titre page-->
+            <div class="titre-projet-pro">
+                <h1 style="padding-top: 90px;">Mon projet professionnel</h1><br>
+            </div>
+            <div class="col-md-6">
+                <!--élément bootstrap caroussel-->
+                <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel"
+                    style="padding-left: 3%">
+                    <!--éléments dans le caroussel-->
+                    <div class="carousel-inner">
+                        <!--1er image avec delay de transition-->
+                        <div class="carousel-item active" data-bs-interval="5000">
+                            <img src="../../img/slide1.jpg" class="d-block w-100" alt="slide1">
+                        </div>
+                        <!--2e image avec delay de transition-->
+                        <div class="carousel-item" data-bs-interval="5000">
+                            <img src="../../img/slide2.jpg" class="d-block w-100" alt="slide2">
+                        </div>
+                        <!--3e image avec delay de transition-->
+                        <div class="carousel-item" data-bs-interval="5000">
+                            <img src="../../img/slide3.jpg" class="d-block w-100" alt="slide3">
+                        </div>
+                    </div>
+                    <!--boutons caroussel pour pouvoir passer les slides manuellement-->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">précédent</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">suivant</span>
+                    </button>
+                </div>
+            </div>
+
+            <!--partie droite du container, colonne de droite de l'écran-->
+            <div class="col-md-6" style="color:white; padding-left:4%;">
+                <hr style="color: #FFF; height: 2px;">
+                <div class="langue-pro">
+                    <!--bouton page en anglais-->
+                    <a href="../en/projetprofessionnel_anglais.html" class="btn btn-dark" role="button">Anglais&ensp;<i
+                            class="bi bi-translate"></i></a>
+                </div>
+                <!--titre-->
+                <h2 class="my-3">Objectifs pour les années à suivre :</h2><br>
+                <!--éléments sous forme de liste non-ordonnée-->
+                <ul style="font-size: 18px; line-height: 3em;">
+                    <li>Finir au la main la 1ère année de B.U.T Réseaux & Télécommunications</li>
+
+                    <li>Le parcours Alternance en 2nd année du B.U.T</li>
+
+                    <li>Finir et obtenir le diplôme de B.U.T</li>
+
+                    <li>Intégrer une école d'ingénieurs</li>
+
+                    <li>Obtenir le Bac +5 spécialisé en Cybersécurité</li>
+
+                    <li>Intégrer l'équipe Cyber d'une grande entreprise</li>
+
+                    <li>évoluer dans les nombreux métiers de la Cyber.</li>
+
+                </ul>
+                <!--trait de séparation esthétique-->
+                <hr style="color: #FFF; height: 2px;">
+            </div>
+        </div>
+
+    </div>
+
+    <!--partie centrale au dessous des éléments et du caroussel-->
+    <h4 class="my-3"
+        style="color:white; padding-left: 5%; padding-right: 5%; text-align: justify; font-size: 20px; line-height: 1.8em;">
+        <br> <br>
+        Mon projet pour les prochaines années est de me spécialiser dans le domaine de la cybersécurité. Tout d'abord
+        en choisissant cette spécialité dans le cursus du B.U.T Réseaux & Télécoms, mais également dans la poursuite
+        d'études. En effet, j'envisage de poursuivre après mon B.U.T en intégrant une école d'ingénieurs ou un Master,
+        spécialisé dans la Cybersécurité.
+        Je souhaite réaliser tout cela en alternance, car
+        je considère que cette voie est la meilleure puisqu'elle permet d'associer connaissances et pratique dans un
+        environnement professionnel et permet donc d'acquérir de l'expérience qui sera une plus-value pour la suite.
+    </h4>
+    <br>
+
+
+    <!--bootstrap grid des 4 images responsives-->
+    <div class="row" style="padding-top: 1%; padding-bottom: 2%; padding-left: 3%; width: 99%;">
+        <!--trait de séparation esthétique-->
+        <hr style="color: #FFF; height: 2px; ">
+        <!--1ere image-->
+        <div class="col-md-3 col-sm-6 mb-10">
+            <br>
+            <img class="img-fluid" src="../../img/data.jpg" alt="" style="border-radius: 10px;">
+        </div>
+        <!--2e image-->
+        <div class="col-md-3 col-sm-6 mb-10"><br>
+            <img class="img-fluid" src="../../img/POLE.jpg" alt="" style="border-radius: 10px;">
+        </div>
+        <!--3e image-->
+        <div class="col-md-3 col-sm-6 mb-10"><br>
+            <img class="img-fluid" src="../../img/pc.jpg" alt="" style="border-radius: 10px;">
+        </div>
+        <!--4e image-->
+        <div class="col-md-3 col-sm-6 mb-10"><br>
+
+            <img class="img-fluid" src="../../img/cyber.jpg" alt="" style="border-radius: 10px;">
+
+        </div>
+
+    </div>
+    <!--pied de page-->
+    <footer class="text-center text-white">
+        <!-- Grid container -->
+        <div class="container pt-4">
+            <!-- Section: Social media -->
+            <div class="mb-4">
+                <!-- Twitter -->
+                <a class="btn btn-link btn-floating btn-lg text-white m-1" href="https://twitter.com/timeotourneuxg1"
+                    target="_blank" role="button" data-mdb-ripple-color="dark"><i class="bi bi-twitter"></i></a>
+
+                <!-- IUT -->
+                <a class="btn btn-link btn-floating btn-lg text-white m-1" href="https://iut-lannion.univ-rennes1.fr/"
+                    target="_blank" role="button" data-mdb-ripple-color="dark"><i class="bi bi-briefcase-fill"></i></a>
+
+                <!-- Instagram -->
+                <a class="btn btn-link btn-floating btn-lg text-white m-1" href="https://www.instagram.com/txtimeo/"
+                    target="_blank" role="button" data-mdb-ripple-color="dark"><i class="bi bi-instagram"></i></a>
+
+                <!-- Linkedin -->
+                <a class="btn btn-link btn-floating btn-lg text-white m-1"
+                    href="https://www.linkedin.com/in/tim%C3%A9o-tourneux-977015260/" target="_blank" role="button"
+                    data-mdb-ripple-color="dark"><i class="bi bi-linkedin"></i></a>
+            </div>
+
+        </div>
+        <!--texte footer-->
+        <div class="text-center  text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            <span>© 2023 Site créé par Timéo Tourneux</span>
+        </div>
+    </footer>
+    <!--module bootstrap js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
